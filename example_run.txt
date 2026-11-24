@@ -1,0 +1,10 @@
+Command: python backtest.py --out results
+
+Data           synthetic demo (seed 42) | 1,875 bars
+Ending cash    100,258.82
+Net return     0.26%
+Buy and hold   0.96%
+Max drawdown   6.01% (at bar closes)
+Closed trades  39
+Win rate       35.9% after costs
+Trade log and equity curve written to results

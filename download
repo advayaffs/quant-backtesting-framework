@@ -1,0 +1,27 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+.vscode/
+.idea/
+
+# Private or large datasets (keep public examples in results/)
+data/
+private_data/
+*.parquet
+*.feather
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
